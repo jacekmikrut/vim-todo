@@ -35,8 +35,8 @@ Colorizes content of simple syntax `*.todo` files in Vim.
 
 ### Manually
 
-* download `https://raw.github.com/jacekmikrut/vim-todo/master/ftdetect/todo.vim` and save it as `~/.vim/ftdetect/todo.vim`;
-* download `https://raw.github.com/jacekmikrut/vim-todo/master/syntax/todo.vim` and save it as `~/.vim/syntax/todo.vim`.
+* download https://raw.github.com/jacekmikrut/vim-todo/master/ftdetect/todo.vim and save it as `~/.vim/ftdetect/todo.vim`;
+* download https://raw.github.com/jacekmikrut/vim-todo/master/syntax/todo.vim and save it as `~/.vim/syntax/todo.vim`.
   
 
 ## Author
