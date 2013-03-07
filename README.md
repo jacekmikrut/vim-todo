@@ -11,7 +11,7 @@ Colorizes content of simple syntax `*.todo` files in Vim.
   x Completed/cancelled todo item.
   - Regular todo item.
     - Nested todo item.
-  ! Important todo item.
+  ! High-priority todo item.
 
   Inbox:
     ...
@@ -21,7 +21,7 @@ Colorizes content of simple syntax `*.todo` files in Vim.
 
 - Heading lines end with `:` (colon) character.
 - Unchecked todo items start with `-` (minus) character.
-- Important unchecked todo items start with `!` (exclamation mark).
+- High-priority unchecked todo items start with `!` (exclamation mark).
 - Checked todo items start with `v`, `V`, `x` or `X` letter.
 
 ## Installation

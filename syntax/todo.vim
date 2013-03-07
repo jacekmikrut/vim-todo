@@ -13,8 +13,8 @@ syn match TodoHeading '^.*\(:$\)\@='
 
 syn match UncheckedTodoMark '\(^\s*\)\@<=-\(\s\S\)\@='
 syn match UncheckedTodoItem '\(^\s*-\s\)\@<=.*'
-syn match ImportantTodoMark '\(^\s*\)\@<=!\(\s\S\)\@='
-syn match ImportantTodoItem '\(^\s*!\s\)\@<=.*'
+syn match HighPriorityTodoMark '\(^\s*\)\@<=!\(\s\S\)\@='
+syn match HighPriorityTodoItem '\(^\s*!\s\)\@<=.*'
 syn match   CheckedTodoMark '\(^\s*\)\@<=[VvXx]\(\s\S\)\@='
 syn match   CheckedTodoItem '\(^\s*[VvXx]\s\)\@<=.*'
 
@@ -23,8 +23,8 @@ hi def link TodoHeading String
 hi def link UncheckedTodoMark Comment
 hi def link UncheckedTodoItem Statement
 
-hi def link ImportantTodoMark Special
-hi def link ImportantTodoItem Special
+hi def link HighPriorityTodoMark Special
+hi def link HighPriorityTodoItem Special
 
 hi def link   CheckedTodoMark Comment
 hi def link   CheckedTodoItem Comment
