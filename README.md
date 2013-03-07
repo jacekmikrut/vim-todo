@@ -9,7 +9,7 @@ Colorizes content of simple syntax `*.todo` files in Vim.
   Header A:
   v Todo A1.
   - Todo A2.
-  v Todo A3.
+  x Todo A3.
   
   Header B:
   - Todo B1.
@@ -21,8 +21,8 @@ Colorizes content of simple syntax `*.todo` files in Vim.
 ## Syntax
 
 - Heading lines end with `:` (colon) character.
-- Uncompleted todo items start with `-` (minus) character.
-- Completed todo items start with `v` or `V` letter.
+- Unchecked todo items start with `-` (minus) character.
+- Checked todo items start with `v`, `V`, `x` or `X` letter.
 
 ## Installation
 

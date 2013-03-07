@@ -13,8 +13,8 @@ syn match TodoHeading '^.*\(:$\)\@='
 
 syn match UncheckedTodoMark '\(^\s*\)\@<=-\(\s\S\)\@='
 syn match UncheckedTodoItem '\(^\s*-\s\)\@<=.*'
-syn match   CheckedTodoMark '\(^\s*\)\@<=[Vv]\(\s\S\)\@='
-syn match   CheckedTodoItem '\(^\s*[Vv]\s\)\@<=.*'
+syn match   CheckedTodoMark '\(^\s*\)\@<=[VvXx]\(\s\S\)\@='
+syn match   CheckedTodoItem '\(^\s*[VvXx]\s\)\@<=.*'
 
 hi def link TodoHeading String
 
