@@ -6,16 +6,15 @@ Colorizes content of simple syntax `*.todo` files in Vim.
 ## Example *.todo file
 
 ```
-  Header A:
-  v Todo A1.
-  - Todo A2.
-  x Todo A3.
-  
-  Header B:
-  - Todo B1.
-    v Todo B1a.
-    - Todo B1b.
-  - Todo B2.
+  Today:
+  v Completed todo item.
+  x Completed/cancelled todo item.
+  - Regular todo item.
+    - Nested todo item.
+  ! Important todo item.
+
+  Inbox:
+    ...
 ```
 
 ## Syntax
