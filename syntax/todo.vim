@@ -2,7 +2,7 @@
 " Language:   Todo
 " Maintainer: Jacek Mikrut <jacekmikrut.software@gmail.com>
 " URL:        https://github.com/jacekmikrut/vim-todo
-" Version:    0.0.1
+" Version:    0.1.0
 " License:    https://github.com/jacekmikrut/vim-todo/blob/master/LICENSE
 
 if exists("b:current_syntax")
