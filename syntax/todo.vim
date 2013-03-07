@@ -11,15 +11,15 @@ endif
 
 syn match TodoHeading '^.*\(:$\)\@='
 
-syn match UncompletedTodoMark '\(^\s*\)\@<=-\(\s\S\)\@='
-syn match UncompletedTodoItem '\(^\s*-\s\)\@<=.*'
-syn match   CompletedTodoMark '\(^\s*\)\@<=[Vv]\(\s\S\)\@='
-syn match   CompletedTodoItem '\(^\s*[Vv]\s\)\@<=.*'
+syn match UncheckedTodoMark '\(^\s*\)\@<=-\(\s\S\)\@='
+syn match UncheckedTodoItem '\(^\s*-\s\)\@<=.*'
+syn match   CheckedTodoMark '\(^\s*\)\@<=[Vv]\(\s\S\)\@='
+syn match   CheckedTodoItem '\(^\s*[Vv]\s\)\@<=.*'
 
 hi def link TodoHeading String
 
-hi def link UncompletedTodoMark Comment
-hi def link UncompletedTodoItem Statement
+hi def link UncheckedTodoMark Comment
+hi def link UncheckedTodoItem Statement
 
-hi def link   CompletedTodoMark Comment
-hi def link   CompletedTodoItem Comment
+hi def link   CheckedTodoMark Comment
+hi def link   CheckedTodoItem Comment
