@@ -1,0 +1,7 @@
+0.1.0 (March 07, 2013)
+  Completed/cancelled todo items may now be marked with "x" or "X" character.
+  High-priority todo items may now be marked with "!" (exclamation mark).
+  Improved *.todo example file (in README.md).
+
+0.0.1 (March 06, 2013)
+  Initial release.
