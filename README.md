@@ -22,6 +22,7 @@ Colorizes content of simple syntax `*.todo` files in Vim.
 
 - Heading lines end with `:` (colon) character.
 - Unchecked todo items start with `-` (minus) character.
+- Important unchecked todo items start with `!` (exclamation mark).
 - Checked todo items start with `v`, `V`, `x` or `X` letter.
 
 ## Installation
